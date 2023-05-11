@@ -8,7 +8,7 @@ function CartItem(props) {
   const dispatch = useDispatch()
   const handelRemoveFromCart = (item) => {
    
-    // using dispatch to send remove action and payload.
+    // using dispatch to send remove action and payload. shubhangi
 
     dispatch(removeFromCart(items.id));
   }
