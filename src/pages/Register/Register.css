@@ -1,0 +1,39 @@
+.Sign-container{
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 0px !important;
+    margin-top: 40px;
+    
+}
+
+.form-control{
+font-size: medium;
+font-weight: 700;
+
+
+}
+
+.login{
+padding: 5px 55px;
+margin-left: 50px;
+
+}
+
+.reset{
+
+    margin-left: 300px;
+    background-color: aqua;
+}
+
+.reset:hover{
+    background-color: red;
+    color: blueviolet;
+}
+
+@media screen and (max-width:600px){
+.Sign-container{
+    margin-right: 52px ;
+    margin-left: 30px;
+    padding: 0px !important;
+}
+}

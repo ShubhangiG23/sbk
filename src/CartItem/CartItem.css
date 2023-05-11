@@ -1,0 +1,40 @@
+
+
+.cartItem{
+    margin: 12px 30px;
+    padding: 12px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px 4px rgba(157, 16, 16, 0.256) ;
+    
+}
+.cart.btn.btn-success{
+    border-radius: 2px;
+    font-size: 15px;
+    color: black;
+}
+.DeleteItem:hover{
+    display: flex;
+    float: right;
+    cursor: pointer;
+    color: red;
+
+}
+p{
+    font-size: medium;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+}
+
+.itemRate{
+    font-weight: 800;
+  
+}
+
+	

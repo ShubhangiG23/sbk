@@ -1,0 +1,64 @@
+.row{
+    margin-top: 0px;
+    margin-left: 5rem ;
+    display: inline-flex;
+    width: 100%;
+}
+
+
+
+.mt-100{
+   margin-top:100px;
+
+}
+
+
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+
+
+.card .card-body {
+    padding: 30px;
+    background-color: transparent;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled {
+    background-color: purple!important;
+    border-color: burlywood!important;
+   
+}
+@media screen and (max-width:600px){
+    
+	.card{
+    margin-bottom: none;
+    border: 0;
+    
+    transition: none;
+    letter-spacing: none;
+    border-radius: none;
+    
+	 
+	}
+ 
+ }
+  
+@media screen and (max-width:600px){
+    .container {
+        padding:0;
+        margin: 1px;
+        
+      }
+    
+      .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .row{
+        padding-right: 0;
+        padding-left:0
+      }
+
+}
