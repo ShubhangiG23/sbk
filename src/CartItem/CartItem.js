@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { add, removeFromCart, decreaseCart } from "../reducers/cartReducer";
 
 function CartItem(props) {
-  const items = props.item;
+  const items = props.item; 
   
   const dispatch = useDispatch()
   const handelRemoveFromCart = (item) => {
